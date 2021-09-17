@@ -1,52 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Ramirez HTML Final Assessment</title>
-</head>
-<body>
-    <h1>Top Games I Have Played</h1>
-    <h2>Here is a little about me and my relationship with video games</h2>
-    <a href="https://docs.google.com/document/d/1YWjasPAn-euP-nqUAzKM6FRONrSCHXrXplVcD8iWd50/edit"> About Me</a>
-    <ol> <li>Valorant</li><ul><li>Other Modes: Valorant PBE</li></ul> <li>SplitGate</li><ul><li>Other Modes: Splitgate Ranked</li></ul><li>GTA V Online</li><ul><li>Other Modes: GTA V Story Mode </li></ul><li>Rocket League</li><ul><li>Other Modes: Rocket League Ranked</li></ul> <li>Rainbow Six Siege</li><ul><li>Other Modes: Rainbow Six Siege Training</li></ul></ol>
-    <p>First in my list is Valorant, i have been playing valorant since when i finished my first Pc back in August of 2020 i didnt play since at the time i only played Fortite with online friends but i then i started to play again almost a year after playing in July of 2021 and since there i have been addicted to playing always trying to improve and grind ranked. Second in my list is a fairly new game still in beta called SplitGate, it recieved a ton of hype on social media and at its peak the game went from 4 thousand concurrent players to almost a half ofa million concurrent player since everybody wanted to try it out the queue time was about an hour long just to get in but i like the style of it its like halo but with portals, everytime i play games i go straight to the competative/ranked part of the game and im currently trying to get the highest rank and im almost there beind at champion 1. On my list the third game is GTA V Online, i play it one in a while since i mainly play my top  picks but when playing with a friend the new updates are fun and i never seem to get bored of it since playing it on release in 2013. I first started playing Rocket League when it went free to play and have reached Diamond 2 which is 60% of the ranks in the game, one of my friends introduced me to the game and i play it now and then but everytime i play it i seem to not forget the basis of the game. Finally there is Rainbow Six Siege, i recently got this and im starting to play it a bit more often but one of my friends had gottem me to play this, so far im 50/50 about the game.</p>
-    <img src="Valorant.jpg" width="500" length="400">
-    <img src="Splitgate.png" width="300" length="200">
-    <img src="Grand_Theft_Auto_Online.jpg" width="400" length="400">
-    <!--These images are my top 3 picks-->
+    <!-- STEP 1: Change the title tag to be Your Name -->
+    <title>David Ramirez</title>
+    <link rel="stylesheet" href="Index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg nav justify-content-end navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">David</a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="https://davidramirez04.github.io/DavidRamirez/">Link</a>
+      </li>
+    </ul>
+    </div> 
+  </nav>
+    <!--STEP 3:  ADD A DARK NAVBAR HERE WITH YOUR NAME IN THE TOP LEFT.  
+        Also, create a link in the navbar TO the HTML file that you made in the HTML assessment -->
 
-<form action="file:///C:/Users/s_DavidRamir74664/Documents/Code/GitHub%20Pages/DavidRamirez/Final%20Assessment.html" >
-    <p></p>
-    <label name="Favorite Games">Which games do we have in common:</label>
-    <select name="Favorite Games" id="Favorite Games">
-    <option value="Select one">Select one</option>
-    <option value="Valorant">Valorant</option>
-    <option value="SplitGate">SplitGate</option>
-    <option value="GTA V Online">GTA V Online</option>
-    <option value="Rocket League">Rocket League</option>
-    <option value="Rainbow Six Siege">Rainbow Six Siege</option>
-    <option value="None">None</option>      
-    </select>
-    <p>Which game would you try out.</p>
-    <input type="radio" id="Valorant" name="Try out this" value="Valorant">
-    <label for="1st game">Valorant</label><br>
-    <input type="radio" id="SplitGate" name="Try out this" value="SplitGate">
-    <label for="2nd game">SplitGate</label><br>
-    <input type="radio" id="GTA V Online" name="Try out this" value="GTA V Online">
-    <label for="3rd game">GTA V Online</label><br>
-    <input type="radio" id="Rocket League" name="Try out this" value="Rocket League">
-    <label for="4th game">Rocket League</label><br>
-    <input type="radio" id="Ranbow Six Siege" name="Try out this" value="Ranbow Six Siege">
-    <label for="5th game">Rainbow Six Siege</label>
-    
-    
-        <p></p>
-        <input type="text" name="Thoughts" placeholder="Final Thought's">
-    <p></p>
-  
-    <input type="submit" name="Submited Data" value="Submit">
-</form>
-</body>
+      <div class="customclass">
+      <h2>Theres dogs here??</h2>
+      </div>
+      <!-- Add a class with custom styling to this div -->
+
+    <div class="customclass" id="customid">
+      <h2>I like DOGS!!!</h2>
+    </div>
+      <!-- Add the same class as before to apply the same styling to this div.
+           ALSO add an id to this div to apply something unique. -->
+
+    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Dog.jpg" class="d-block w-100" alt="First slide">
+      </div>
+
+      <div class="carousel-item">
+        <img src="pitbull.jpg" class="d-block w-100" alt="Second Slide">
+      </div>
+
+      <div class="carousel-item">
+        <img src="puppy_pic.jpg" class="d-block w-100" alt="Third Slide">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
+         and a header row and add at least three more rows. Feel free to change the text.-->
+
+         <table class="table table-striped">
+
+          <tr>
+            <td><h1> Dogs are Nice Sometimes</h1></td><td><h1>While Cats can also be nice sometimes.</h1></td>
+          </tr>
+          <tr>
+            <td>CS CapStone has been fun so far</td><td>I would consider it in my top 3 favorite classes</td>
+          </tr>
+          <tr>
+            <td>Coding is fun so far...</td><td>Untill we do harder things</td>
+          </tr>
+          <tr>
+            <td>Overall my i like my classes</td><td>And so far none of my classes are hard to pass</td>
+          </tr>
+    </table>
+
+  </body>
 </html>

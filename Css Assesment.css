@@ -1,0 +1,28 @@
+body{
+    background:#D3D3D3;
+    font-family:monospace;
+}
+
+h1{
+ border: black;   
+ border: #000000 4px solid;
+ text-align: center;
+}
+
+h2{
+    color:purple;
+}
+
+input{
+    border: darkblue 5px solid;
+}
+
+textarea{
+    width: 800px;
+    height: 400px;
+    border: grey 5px solid;
+}
+
+a{
+   color: red; 
+}
