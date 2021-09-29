@@ -1,0 +1,13 @@
+.button{
+    width: 200px;
+    height: 200px;
+    background: red;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    opacity:0;
+}
